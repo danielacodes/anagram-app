@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'sinatra', '~> 2.0', '>= 2.0.5'
-gem 'rake', '~> 12.3', '>= 12.3.2'
+gem 'rake', '~> 12.3'
 gem 'activerecord', '~> 5.2', '>= 5.2.2'
 gem 'pg', '~> 1.1', '>= 1.1.4'
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.13'
